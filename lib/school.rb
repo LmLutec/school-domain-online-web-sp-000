@@ -24,6 +24,6 @@ class School
   
   def sort
     @roster.sort {|a, b| b <=> a}
-    @roster.invert
+    #@roster.invert
   end 
 end 
