@@ -23,7 +23,7 @@ class School
   end 
   
   def sort
-    @roster.sort {|a, b| b <=> a}
+    @roster.sort.flatten {|a, b| b <=> a}
     #@roster.invert
   end 
 end 
