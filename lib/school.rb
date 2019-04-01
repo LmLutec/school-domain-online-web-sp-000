@@ -26,5 +26,6 @@ class School
     @roster.collect do |grade, name|
       name = name.sort
       @roster[grade] = name 
+    end 
   end 
 end 
