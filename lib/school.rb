@@ -22,9 +22,9 @@ class School
     @roster[grade]
   end 
   
-  def sort(grade)
+  def sort
+    binding.pry
     grade.sort.flatten {|a, b| b <=> a}
     #@roster.invert
-  binding.pry 
   end 
 end 
