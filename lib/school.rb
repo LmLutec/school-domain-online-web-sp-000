@@ -23,7 +23,6 @@ class School
   end 
   
   def sort
-    binding.pry
     grade.sort.flatten {|a, b| b <=> a}
     #@roster.invert
   end 
